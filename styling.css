@@ -1,0 +1,149 @@
+.page1{
+    background-image: url("backwall.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page2{
+    background-image: url("hobby.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page3{
+    background-image: url("skillback.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    margin: 0px;
+}
+.myphoto{
+    border-radius: 50%;
+    border: rgb(0, 255, 98) solid 10px;
+}
+.topname {
+    padding: 30px;
+    width: 50%;
+    float: left;
+    margin: 0px;
+    font-family: 'Poppins', 'Calibri';
+    font-weight: 900;
+    font-size: 55px;
+    color: rgb(0, 255, 149);
+}
+
+.mainmenu li {
+    list-style: none;
+    padding: 4.5% 5% 3% 5%;
+    font-size: x-large;
+    float: right;
+}
+
+.mainmenu {
+    padding-right: 2.5%;
+    width: 50%;
+}
+
+header {
+    background-color: rgba(5, 47, 109, 0.541);
+    overflow: auto;
+    display: flex;
+    /* margin: 0px; */
+}
+
+.mainmenu a {
+    text-decoration: none;
+    color: rgb(210, 255, 7);
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.myphoto {
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+
+.mycentername {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    font-size: 43px;
+    margin-bottom: 5px;
+}
+
+.mydisc {
+    text-align: center;
+    padding-top: 0;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.skillscover{
+    padding-top: 3%;
+    display: flex;
+}
+.skill{
+    list-style: circle;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.starscontainer{
+    list-style: none;
+    margin-left: 10%;
+}
+#star{
+    height: 34px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+}
+
+.skilllist{
+    margin-left: 20%;
+}
+
+.heading_and_skill{
+    margin-top: 5%;
+    background-color: rgba(11, 146, 101, 0.616);
+    border-radius: 15px;
+    margin: 2% 20% 2% 20%; 
+    padding: 3% 0% 3% 0%;
+}
+
+.hob{
+    background-color: rgba(0, 162, 255, 0.623);
+    margin: 4% 30% 0% 30%; 
+    padding: 3% 5% 5% 5%;
+    border-radius: 5%;
+}
+
+.hobby{
+    list-style: none;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 1%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.hobbylist{
+    padding-top: 0%;
+    padding-left: 0%;
+}
+
+#subhead{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 1%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-decoration: underline;
+}
+
+
