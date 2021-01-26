@@ -9,7 +9,7 @@
     background-size: cover;
 }
 .page3{
-    background-image: url("skillback.png");
+    background-image: url("skillback.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -18,7 +18,7 @@ body {
 }
 .myphoto{
     border-radius: 50%;
-    border: rgb(0, 255, 98) solid 10px;
+    border: rgb(255, 60, 0) solid 0.5vw;
 }
 .topname {
     padding: 10px 0px 15px 20px;
@@ -27,14 +27,14 @@ body {
     margin: 0px;
     font-family: 'Poppins', 'Calibri';
     font-weight: 900;
-    font-size: 40px;
-    color: rgb(0, 255, 149);
+    font-size: 3.2vw;
+    color: rgb(21, 255, 0);
 }
 
 .mainmenu li {
     list-style: none;
     padding: 1% 3% 3% 3%;
-    font-size: 22px;
+    font-size: 1.8vw;
     float: right;
 }
 
@@ -44,15 +44,15 @@ body {
 }
 
 header {
-    background-color: rgba(5, 47, 109, 0.541);
+    background-color: rgba(0, 0, 0, 0.664);
     overflow: auto;
     display: flex;
 }
 
 .mainmenu a {
     text-decoration: none;
-    color: rgb(210, 255, 7);
-    font-weight: 500;
+    color: rgb(238, 255, 0);
+    font-weight: 900;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -67,8 +67,8 @@ header {
 .mycentername {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    color: whitesmoke;
-    font-size: 37px;
+    color: rgb(255, 255, 255);
+    font-size: 3vw;
     margin-bottom: 5px;
 }
 
@@ -78,18 +78,17 @@ header {
     padding-left: 3%;
     padding-right: 3%;
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 1.7vw;
     font-family: 'Poppins', sans-serif;
 }
 
 .skillscover{
-    padding-top: 3%;
+    padding-top: 4%;
     padding-right: 5%;
-    display: flex;
 }
 .skill{
     list-style: circle;
-    font-size: 27px;
+    font-size: 1.7vw;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
 }
@@ -97,25 +96,27 @@ header {
     list-style: none;
     margin-left: 10%;
 }
-#star{
-    height: 30px;
-    padding-top: 3px;
-    padding-bottom: 4px;
+.star{
+    width: 1.8vw;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 
 .skilllist{
-    margin-left: 20%;
+    margin-left: 25%;
+    margin-right: 20%;
+    float: left;
 }
 
 .heading_and_skill{
-    background-color: rgba(11, 146, 101, 0.616);
+    background-color: rgba(0, 225, 255, 0.685);
     border-radius: 15px;
     margin: 6% 15% 2% 15%; 
     padding: 3% 0% 3% 0%;
 }
 
 .hob{
-    background-color: rgba(0, 162, 255, 0.623);
+    background-color: rgba(0, 253, 156, 0.623);
     margin: 4% 30% 0% 30%; 
     padding: 3% 5% 5% 5%;
     border-radius: 5%;
@@ -123,7 +124,7 @@ header {
 
 .hobby{
     list-style: none;
-    font-size: 30px;
+    font-size: 2vw;
     text-align: center;
     padding-top: 1%;
     font-family: 'Poppins', sans-serif;
@@ -137,7 +138,7 @@ header {
 
 #subhead{
     text-align: center;
-    font-size: 40px;
+    font-size: 3vw;
     font-family: 'Poppins', sans-serif;
     padding-top: 1%;
     margin-top: 0%;
